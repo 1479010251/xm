@@ -1,0 +1,14 @@
+.head {
+	width: 700px;
+	height: 70px;
+	border: 1px solid #000000;
+}
+
+.head [type="submit"] {
+	width:140px;
+	height:40px;
+	background-color:white;
+	border:1px solid #000000;
+	border-radius:5px;
+	margin:10px;
+}

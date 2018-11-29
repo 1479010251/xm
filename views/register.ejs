@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>后台管理系统</title>
+ 	<link rel="stylesheet" type="text/css" href="/css/reset.css"/>
+ 	<link rel="stylesheet" type="text/css" href="/css/register.css"/>
+</head>
+<body>
+		<p>注册页面</p>
+    <form action="/users/register" method="POST" autoComplete="off">
+      <label>
+        <span>用户名：</span>
+        <input type="text" name="name" placeholder="请输入用户名">
+      </label>
+      <label>
+        <span>密&nbsp;&nbsp;码：</span>
+        <input type="password" name="pwd" placeholder="请输入密码">
+      </label>
+      <label>
+        <span>昵&nbsp;&nbsp;称：</span>
+        <input type="text" name="nickname" placeholder="请输入昵称">
+      </label>
+      <label>
+        <span>年&nbsp;&nbsp;龄：</span>
+        <input type="text" name="age" placeholder="请输入年龄">
+      </label>
+      <label>
+        <span>性&nbsp;&nbsp;别：</span>
+        <input type="radio" name="sex" value="男"> 男
+        <input type="radio" name="sex" value="女"> 女
+      </label>
+      <label>
+        <span>管理员：</span>
+        <input type="radio" name="isAdmin" value="是"> 是
+        <input type="radio" name="isAdmin" value="否"> 否
+      </label>
+      <input type="submit" value="注册" style="width:200px;height:35px;border:none;background-color: orange;border-radius:20px;color:white;position:relative;left:100px;font-family: 楷体;font-size: 22px;">
+      <a href="/login.html" style="display:block;width:200px;height:35px;font-size:20px;text-align: center;line-height:35px;background-color: orange;border-radius:20px;color:white;position: relative;left:100px;top:10px;">立即登陆</a>
+    </form>
+</body>
+</html>

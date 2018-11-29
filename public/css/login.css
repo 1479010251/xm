@@ -1,0 +1,47 @@
+body{
+	font-family:"楷体";
+	font-size:25px;
+	background-color:#EEEEEE;
+}
+p {
+    width: 400px;
+    height: 25px;
+    font-size: 25px;
+    line-height: 25px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+form{
+	width:400px;
+	height:400px;
+	margin:90px auto;
+	background-color:rgba(255,255,255,0.5);
+	border-radius:10px;
+}
+label{
+	width:100%;
+	line-height:40px;
+	float: left;
+}
+span {
+    display: block;
+    width: 100px;
+    float: left;
+    margin-top: 60px;
+    margin-left:45px;
+}
+input{
+    width: 200px;
+    height: 20px;
+    position: relative;
+    top: 56px;
+    padding:5px;
+}
+input [type="submit"]{
+    width: 200px;
+    height:35px;
+}
+
+

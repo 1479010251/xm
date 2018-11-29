@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>xx后台管理系统</title>
+		<link rel="stylesheet" href="/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="/css/login.css" />
+	</head>
+
+	<body>
+		<p>登录界面</p>
+		<form action="/users/login" method="POST" autoComplete="off">
+			<label>
+        <span>用户名：</span>
+        <input type="text" name="name" placeholder="请输入用户名">
+      </label>
+			<label>
+        <span>密&nbsp;&nbsp;码：</span>
+        <input type="password" name="pwd" placeholder="请输入密码">
+      </label>
+			<input type="submit" value="登录" style="width:200px;height:35px;border:none;background-color: orange;border-radius:20px;color:white;position:relative;left:100px;font-family: 楷体;font-size: 22px;">
+			<a href="/register.html" style="display:block;width:200px;height:35px;font-size:20px;text-align: center;line-height:35px;background-color: orange;border-radius:20px;color:white;position: relative;left:100px;top:85px;">立即注册</a>
+		</form>
+	</body>
+
+</html>

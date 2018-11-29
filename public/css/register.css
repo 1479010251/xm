@@ -1,0 +1,41 @@
+body {
+	font-family: "楷体";
+	font-size: 25px;
+	background-color: #EEEEEE;
+}
+
+form {
+	width: 400px;
+	height: 420px;
+	margin: 90px auto;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+}
+
+p {
+    width: 400px;
+    height: 25px;
+    font-size: 25px;
+    line-height: 25px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+
+span{
+	margin-left:35px;
+}
+
+label {
+	width: 376px;
+	height: 30px;
+	margin: 12px;
+	float: left;
+}
+input{
+    position: relative;
+    top: -4px;
+    padding:5px;
+}
